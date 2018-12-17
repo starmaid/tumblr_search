@@ -7,4 +7,4 @@ pip install git+http://github.com/starmaid/tumblr_search
 
 The program also requires having the pytumblr library installed.
 
-You will need to authorize the program the first time you run it. Idk how to do that, so I left my keys in the program.
+You will need to authorize the program the first time you run it. Idk how to do that, so I just took the keys out.
