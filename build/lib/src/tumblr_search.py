@@ -3,7 +3,7 @@
 # www.github.com/starmaid
 # nicholas.masso.14@gmail.com
 # created on 12/17/2018
-# v1.0.0
+# v1.0.1
 #
 # A more comprehensive search function for blogs on Tumblr.
 
@@ -16,10 +16,10 @@ import random
 
 # Authenticate via OAuth
 # Fill in your values here
-consumer_key = 'KmuUEeLtoJ4HL9i9KbbdhTafsIVadWOV2fVZGkrpIg9qAgcliB'
-consumer_secret = 'CVQI6aEsNYU7f8hK7PjlN2382HKeyEJ8UZduHA19bwn3fgVDV8'
-oauth_token = '8DyAKgFfKXROVUpWEAVoufIAKg5aew30TX0HJ7V5iIW71uaMTH'
-oauth_secret = 'JDsTgHWMDbM1Ss2MQLstmYo4Odww0FlLOk6WZr6ifkAamNIHDX'
+consumer_key = '###'
+consumer_secret = '###'
+oauth_token = '###'
+oauth_secret = '###'
 
 # Authenticate
 client = pytumblr.TumblrRestClient(
@@ -57,7 +57,7 @@ try:
         # For each post in the list...
         for x in range( increment ):
             # Get info on the post itself
-            ind_tags = posts_list['posts'][x]['tags']
+            ind_tags = posts_list['posts'][x]['tags']     #TODO: search likes also?
             cont = posts_list['posts'][x]['summary']
 
             # Check for each term the user entered
