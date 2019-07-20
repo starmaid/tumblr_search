@@ -1,4 +1,5 @@
 # Tumblr Search
+Update: as of like June 2019 Tumblr did something to their API. This program doesnt work atm and I havent gotten a chance to fix it.
 This program is a more comprehensive version of a tumblr search. Instead of just searching the tags that a user put on a post, this program additionally searches the content body of the post, as well as the tags that OP put on the post. This makes finding relevant results more likely,
 
 This program can be installed via pip with:
